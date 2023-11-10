@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class SimpleEquation
+   public class SimpleEquation
     {
         double a, b;
         public SimpleEquation(double a, double b)
@@ -21,7 +21,7 @@ namespace Calculator
                 if (b == 0)
                     result= "VN";
                 else
-                    result= "VNS";
+                    result= "VSN";
             else
                 result= -b / a + "";
             return result;
